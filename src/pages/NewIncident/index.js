@@ -33,7 +33,9 @@ export default function NewIncident () {
                 headers: {
                     Authorization: ongId
                 }
-            })  
+            })
+
+            // alert('OK')  
             
             history.push('/profile')
 
